@@ -14,8 +14,6 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="/favicon.png" />
   <script src="/assets/js/custom.modernizr.js"></script>
-  
-  <script type="text/javascript" src="/assets/js/main.js"></script>
 </head>
 <body>
   <div class="bg" style="background-image:url(bg.jpg)"></div>
@@ -23,8 +21,21 @@
   <div id="header">
     <div class="icon"><a href="/"><img src="/assets/images/icon.png"></a></div>
     <div class="row">
-      <div class="large-12 columns">
+      <div class="large-6 columns">
         <h1>On Writing</h1>
+      </div>
+      <div class="large-6 columns magellan" data-magellan-expedition data-magellan-top-offset="500">
+        <ul class="right">
+          
+          <li data-magellan-arrival="Constraints"><a href="#Constraints">Constraints</a></dd>
+          
+          <li data-magellan-arrival="Research"><a href="#Research">Research</a></dd>
+          
+          <li data-magellan-arrival="Concept"><a href="#Concept">Concept</a></dd>
+          
+          <li data-magellan-arrival="Prototyping"><a href="#Prototyping">Prototyping</a></dd>
+          
+        </dl>
       </div>
     </div>
   </div>
@@ -33,7 +44,7 @@
       <h2>Challenge</h2>
       <p><h3 id='a_blank_page'>A Blank Page</h3>
 
-<p>For our 8 month Capstone project, <a href='http://wowsystems.pt/'>our client</a>, a Portugeuse startup gave us an open-ended design opportunity. We were asked to understand writers - their gripes, joys, process, hiccups - and create a new type of writing experience.</p>
+<p>For our 8 month Capstone project, <a href='http://wowsystems.pt/'>our client</a>, a Portuguese startup gave us an open-ended design opportunity. We were asked to understand writers - their gripes, joys, process, hiccups - and create a new type of writing experience.</p>
 
 <p>This application will be launched in the Apple store in early 2014</p></p>
     </div>
@@ -47,9 +58,9 @@
 </div>
 <div class="row" id="project-content">
   <div class="large-12 columns">
-    <div class="row">
+    <div class="row" data-magellan-destination="Constraints" name="Constraints">
   <div class="large-6 columns">
-    <a name="creativity"><h2 data-magellan-destination="creativity">Creativity & Constraints</h2></a>
+    <h2>Creativity & Constraints</h2>
 
     <p>One of the main lessons human-centered design has taught me is
     that constraints are an imperative part of creativity and thus,
@@ -74,9 +85,9 @@
     </ul>
   </div>
 </div>
-<div class="row">
+<div class="row" data-magellan-destination="Research" name="Research">
   <div class="large-6 columns">
-    <a name="research"><h2 data-magellan-destination="research">Research & Its Synthesis</h2></a>
+    <h2>Research & Its Synthesis</h2>
 
     <p>Since writing is an internal process, our research heavily relied
     on other targeted research methods. These included:</p>
@@ -105,7 +116,7 @@
     </ul>
   </div>
 </div>
-<div class="row">
+<div class="row" data-magellan-destination="Concept" name="Concept">
   <div class="large-6 columns">
     <h2>Insights & Concepts</h2>
 
@@ -137,7 +148,7 @@
     </ul>
   </div>
 </div>
-<div class="row">
+<div class="row" data-magellan-destination="Prototyping" name="Prototyping">
   <div class="large-6 columns">
     <h2>Prototyping & Usability</h2>
 
@@ -268,6 +279,8 @@
       + '.js><\/script>');
   </script>
   <script type="text/javascript" src="/assets/js/foundation.min.js"></script>
+  <script type="text/javascript" src="/assets/js/zepto.scroll.js"></script>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
   <script>
     $(document).foundation();
   </script>
