@@ -14,7 +14,7 @@ window.onscroll = function(e) {
   }
 }
 
-$(document).foundation("magellan", {threshold: 65});
+$(document).foundation("magellan", {threshold: 150});
 
 
 $(document).ready(function() {
