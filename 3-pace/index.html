@@ -14,8 +14,6 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="/favicon.png" />
   <script src="/assets/js/custom.modernizr.js"></script>
-  
-  <script type="text/javascript" src="/assets/js/main.js"></script>
 </head>
 <body>
   <div class="bg" style="background-image:url(bg.jpg)"></div>
@@ -23,8 +21,21 @@
   <div id="header">
     <div class="icon"><a href="/"><img src="/assets/images/icon.png"></a></div>
     <div class="row">
-      <div class="large-12 columns">
+      <div class="large-6 columns">
         <h1>Pace</h1>
+      </div>
+      <div class="large-6 columns magellan" data-magellan-expedition data-magellan-top-offset="500">
+        <ul class="right">
+          
+          <li data-magellan-arrival="Needfinding"><a href="#Needfinding">Needfinding</a></dd>
+          
+          <li data-magellan-arrival="Insights"><a href="#Insights">Insights</a></dd>
+          
+          <li data-magellan-arrival="Design"><a href="#Design">Design</a></dd>
+          
+          <li data-magellan-arrival="Final"><a href="#Final">Final</a></dd>
+          
+        </dl>
       </div>
     </div>
   </div>
@@ -45,7 +56,7 @@
 </div>
 <div class="row" id="project-content">
   <div class="large-12 columns">
-    <div class="row">
+    <div class="row" data-magellan-destination="Needfinding" name="Needfinding">
   <div class="large-6 columns">
     <h2>Needfinding</h2>
 
@@ -57,7 +68,7 @@
     <img src="pace_r_1.png">
   </div>
 </div>
-<div class="row">
+<div class="row" data-magellan-destination="Insights" name="Insights">
   <div class="large-6 columns">
   <h2>Insights</h2>
 
@@ -75,7 +86,7 @@
     <img src="pace_r_2.png">
   </div>
 </div>
-<div class="row">
+<div class="row" data-magellan-destination="Design" name="Design">
   <div class="large-6 columns">
     <h2>Design</h2>
     <p>How can we alter the physical ergonomics of mp3 player to allow for
@@ -95,7 +106,7 @@
     </ul>
   </div>
 </div>
-<div class="row">
+<div class="row" data-magellan-destination="Final" name="Final">
   <div class="large-6 columns">
     <h2>Final</h2>
     
@@ -234,6 +245,8 @@
       + '.js><\/script>');
   </script>
   <script type="text/javascript" src="/assets/js/foundation.min.js"></script>
+  <script type="text/javascript" src="/assets/js/zepto.scroll.js"></script>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
   <script>
     $(document).foundation();
   </script>
