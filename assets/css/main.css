@@ -404,7 +404,13 @@ li.project-thumb {
   background: #2a2c39;
 }
 
+.orbit-bullets {
+  text-align: left;
+}
 
+.big-orbit .orbit-bullets {
+  text-align: right;
+}
 
 .full-row-images {
   width: 100%;
