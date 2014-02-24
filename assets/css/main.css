@@ -403,3 +403,15 @@ li.project-thumb {
 .orbit-bullets li.active {
   background: #2a2c39;
 }
+
+
+
+.full-row-images {
+  width: 100%;
+  list-style-type: none;
+}
+
+.full-row-images.images-4 li {
+  display: inline-block;
+  width: 24%;
+}
