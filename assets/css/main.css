@@ -410,7 +410,12 @@ li.project-thumb {
 
 .big-orbit .orbit-bullets {
   text-align: right;
+  top: 0;
 }
+
+.big-orbit .orbit-bullets li {
+  width: 0.8em;
+  height: 0.8em;
 
 .full-row-images {
   width: 100%;
