@@ -416,6 +416,11 @@ li.project-thumb {
 .big-orbit .orbit-bullets li {
   width: 0.8em;
   height: 0.8em;
+}
+
+.big-orbit .orbit-slides-container li img {
+  margin: auto;
+}
 
 .full-row-images {
   width: 100%;
