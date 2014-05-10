@@ -226,15 +226,14 @@ li.project-thumb {
   color: white;
   font-size: 16px;
   font-weight: normal;
-  line-height: 1.2em;
-  height: 38px;
   text-transform: none;
+  margin-bottom: 0;
 }
 
 .project-thumb p {
   color: white;
-  line-height: 15px;
-  height: 1em;
+  font-size: 12px;
+  text-transform: capitalize;
 }
 
 .project-thumb:hover h2 {
@@ -430,4 +429,19 @@ li.project-thumb {
 .full-row-images.images-4 li {
   display: inline-block;
   width: 24%;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 13px;
+  height: 64px;
+  background-color: rgb(42, 44, 57);
+  width: 100%;
+}
+
+.contact a {
+  color: white;
+  font-size: 37px;
+  letter-spacing: 6px;
 }
