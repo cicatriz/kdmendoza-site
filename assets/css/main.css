@@ -466,3 +466,17 @@ li.project-thumb {
 .role p {
   font-size: 13px;
 }
+
+.resume.button {
+  display: block;
+  margin-top: 40px;
+  background-color: #999;
+  margin: 40px auto 0;
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.resume.button:hover {
+  background-color: #ccc;
+}
