@@ -447,11 +447,18 @@ li.project-thumb {
 }
 
 .role h2 {
+  font-size: 14px;
   margin-bottom: 6px;
 }
 
-.role p {
+.role ul {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.role li {
   font-size: 13px;
   line-height: 14px;
-  margin-bottom: 30px;
+  margin-bottom: 6px;
 }
