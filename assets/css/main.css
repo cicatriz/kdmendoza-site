@@ -445,3 +445,13 @@ li.project-thumb {
   font-size: 37px;
   letter-spacing: 6px;
 }
+
+.role h2 {
+  margin-bottom: 6px;
+}
+
+.role p {
+  font-size: 13px;
+  line-height: 14px;
+  margin-bottom: 30px;
+}
