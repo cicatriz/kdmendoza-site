@@ -431,21 +431,6 @@ li.project-thumb {
   width: 24%;
 }
 
-.contact {
-  text-align: center;
-  margin-top: 80px;
-  padding-top: 13px;
-  height: 64px;
-  background-color: rgb(42, 44, 57);
-  width: 100%;
-}
-
-.contact a {
-  color: white;
-  font-size: 37px;
-  letter-spacing: 6px;
-}
-
 .role h2 {
   font-size: 14px;
   margin-bottom: 6px;
@@ -467,16 +452,21 @@ li.project-thumb {
   font-size: 13px;
 }
 
-.resume.button {
-  display: block;
-  margin-top: 40px;
-  background-color: #999;
-  margin: 40px auto 0;
-  width: 180px;
+.contact {
   text-align: center;
+  margin: 40px auto;
+}
+
+.contact .button {
+  width: 180px;
+  background-color: #999;
   border-radius: 10px;
 }
 
-.resume.button:hover {
+.contact .button:hover {
   background-color: #ccc;
+}
+
+.contact .button i {
+  margin-right: 5px;
 }
