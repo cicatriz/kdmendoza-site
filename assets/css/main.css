@@ -485,4 +485,10 @@ h3.weird-shit {
   text-align: center;
   color: #666;
   font-size: 16px;
+  text-transform: uppercase;
+}
+
+.caption {
+  padding-top: 3px;
+  font-size: 14px;
 }
