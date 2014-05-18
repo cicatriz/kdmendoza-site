@@ -357,6 +357,8 @@ li.project-thumb {
 #header-wrap h2 {
   color: white;
   margin-top: 0;
+  text-align: left;
+  font-size: 15px;
 }
 
 #header-wrap h3 {
@@ -473,4 +475,14 @@ li.project-thumb {
 
 .video-wrap {
   text-align: right;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3.weird-shit {
+  text-align: center;
+  color: #666;
+  font-size: 16px;
 }
