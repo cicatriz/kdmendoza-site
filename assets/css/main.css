@@ -450,6 +450,21 @@ li.project-thumb {
   font-size: 13px;
 }
 
+.demo {
+  text-align: center;
+}
+
+.demo .button {
+  background-color: rgb(252, 5, 64);
+  border-radius: 10px;
+}
+
+.demo .fa {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
 .contact {
   text-align: center;
   margin: 40px auto;
