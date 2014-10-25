@@ -185,6 +185,10 @@ li.project-thumb {
   transition: 0.25s linear;
 }
 
+.thumb-content-wrap p {
+  height: 1em;
+}
+
 .project-thumb .thumb-wrap .thumb-description-wrap {
   font-family: Arial, sans-serif;
   font-size: 13px;
@@ -502,4 +506,13 @@ h3.special {
 .caption {
   padding-top: 3px;
   font-size: 14px;
+}
+
+img.full {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+  padding: 10px;
+  margin-bottom: 24px;
 }
