@@ -352,6 +352,7 @@ li.project-thumb {
 #header-wrap h1 {
   color: white;
   font-size: 30px;
+  margin-top: 9px;
 }
 
 #header-wrap h2 {
@@ -508,11 +509,12 @@ h3.special {
   font-size: 14px;
 }
 
+
 img.full {
   display: block;
   margin: 0 auto;
-  width: 80%;
-  box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+  width: 100%;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   padding: 10px;
   margin-bottom: 24px;
 }
