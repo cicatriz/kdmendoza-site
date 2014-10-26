@@ -513,8 +513,35 @@ h3.special {
 img.full {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  max-width: 100%;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   padding: 10px;
   margin-bottom: 24px;
+}
+
+.caption-holder {
+  position: relative;
+  height: 528px;
+}
+
+.caption-holder p {
+  font-size: 13px;
+}
+
+.caption-holder ul {
+  margin-top: -15px;
+  margin-bottom: 30px;
+  font-size: 13px;
+}
+
+.caption-holder .bottom-caption {
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0px;
+  text-decoration: italic;
+}
+
+.captionable img {
+  height: 528px;
 }
