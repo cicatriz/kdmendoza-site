@@ -525,21 +525,20 @@ img.full {
 }
 
 .caption-holder p {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .caption-holder ul {
   margin-top: -15px;
   margin-bottom: 30px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
-.caption-holder .bottom-caption {
-  font-size: 10px;
+.caption-holder p.bottom-caption {
+  font-size: 12px;
   position: absolute;
   bottom: 0;
   margin-bottom: 0px;
-  text-decoration: italic;
 }
 
 .captionable img {
