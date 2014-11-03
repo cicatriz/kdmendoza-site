@@ -534,13 +534,27 @@ img.full {
   font-size: 14px;
 }
 
-.caption-holder p.bottom-caption {
+p.bottom-caption {
   font-size: 12px;
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 0px;
 }
 
 .captionable img {
   height: 528px;
+}
+
+h2.logo {
+  padding-top: 40px;
+  text-align: center;
+}
+
+h2.logo img {
+  width: 300px;
+}
+
+h2.logo.logo-smaller img {
+  width: 250px;
+}
+
+.large-10.large-offset-1.columns {
+  float: none;
 }
